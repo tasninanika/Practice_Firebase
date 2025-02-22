@@ -3,7 +3,7 @@ import Header from "../Header/Header";
 
 const Main = () => {
   return (
-    <div>
+    <div className="flex flex-col justify-center min-h-screen items-center">
       <Header></Header>
       <Outlet></Outlet>
     </div>
