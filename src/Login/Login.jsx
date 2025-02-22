@@ -46,10 +46,12 @@ const Login = () => {
         </button>
       ) : (
         <>
-          <button className="btn" onClick={handleGoogleSignIn}>
+          <button className="btn mr-5" onClick={handleGoogleSignIn}>
             Log in with Google
           </button>
-          <button onClick={handleGitSignIn}>Login with Github</button>
+          <button className="btn" onClick={handleGitSignIn}>
+            Login with Github
+          </button>
         </>
       )}
       {user && (
